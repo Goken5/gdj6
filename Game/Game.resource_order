@@ -1,0 +1,27 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Fonts","order":3,"path":"folders/Fonts.yy",},
+    {"name":"Objects","order":1,"path":"folders/Objects.yy",},
+    {"name":"Home","order":7,"path":"folders/Objects/Home.yy",},
+    {"name":"Tutorial","order":6,"path":"folders/Objects/Tutorial.yy",},
+    {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
+    {"name":"Home","order":6,"path":"folders/Sprites/Home.yy",},
+    {"name":"Tutorial","order":5,"path":"folders/Sprites/Tutorial.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"obj_dog","order":1,"path":"objects/obj_dog/obj_dog.yy",},
+    {"name":"obj_tutorial_floor","order":1,"path":"objects/obj_tutorial_floor/obj_tutorial_floor.yy",},
+    {"name":"spr_arrows","order":2,"path":"sprites/spr_arrows/spr_arrows.yy",},
+    {"name":"spr_dog","order":6,"path":"sprites/spr_dog/spr_dog.yy",},
+    {"name":"spr_dogfood","order":4,"path":"sprites/spr_dogfood/spr_dogfood.yy",},
+    {"name":"spr_fridge","order":2,"path":"sprites/spr_fridge/spr_fridge.yy",},
+    {"name":"spr_kitchen","order":1,"path":"sprites/spr_kitchen/spr_kitchen.yy",},
+    {"name":"spr_oven","order":3,"path":"sprites/spr_oven/spr_oven.yy",},
+    {"name":"spr_player_fall","order":4,"path":"sprites/spr_player_fall/spr_player_fall.yy",},
+    {"name":"spr_player_jump","order":2,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+    {"name":"spr_player_run","order":1,"path":"sprites/spr_player_run/spr_player_run.yy",},
+    {"name":"spr_player_walk","order":3,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
+    {"name":"spr_shift","order":3,"path":"sprites/spr_shift/spr_shift.yy",},
+  ],
+}
