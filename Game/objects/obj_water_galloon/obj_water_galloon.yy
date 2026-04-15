@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_windows",
+  "%Name":"obj_water_galloon",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_windows",
+  "name":"obj_water_galloon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Reception",
-    "path":"folders/Objects/Reception.yy",
+    "name":"Work",
+    "path":"folders/Objects/Work.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_windows",
-    "path":"sprites/spr_windows/spr_windows.yy",
+    "name":"spr_water_galloon",
+    "path":"sprites/spr_water_galloon/spr_water_galloon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

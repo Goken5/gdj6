@@ -10,8 +10,8 @@
   "name":"obj_elevator_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Room2",
-    "path":"folders/Objects/Room2.yy",
+    "name":"Reception",
+    "path":"folders/Objects/Reception.yy",
   },
   "parentObjectId":null,
   "persistent":false,
