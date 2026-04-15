@@ -1,6 +1,6 @@
 draw_self();
 
-if(obj_player.carrying = true){
+if(obj_player.carrying == true){
 	var offset = sin(current_time / 200) * 5;
     
     draw_sprite_ext(

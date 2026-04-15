@@ -1,6 +1,6 @@
 draw_self();
 
-if(obj_filter.full == true && talked == false){
+if(obj_player.filter_full == true && talked == false){
 	var offset = sin(current_time / 200) * 5;
     
     draw_sprite_ext(

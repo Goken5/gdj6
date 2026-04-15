@@ -4,6 +4,7 @@ if (keyboard_check_pressed(vk_left)) {
         global.dialog_active = false;
         obj_boss.talked = true;
         instance_destroy();
+		room_goto(Room4_1);
     } else {
         choice = 0;
     }
@@ -15,6 +16,7 @@ if (keyboard_check_pressed(vk_right)) {
         global.dialog_active = false;
         obj_boss.talked = true;
         instance_destroy();
+		room_goto(Room4_2);
     } else {
         choice = 1;
     }

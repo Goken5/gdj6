@@ -1,11 +1,24 @@
 var near = place_meeting(x, y, obj_player);
-
-if (open) {
-    image_index = 0;
-} else {
-    image_index = 1;
+if(room = Room4_1){
+	if(open){
+		image_index = 0;
+	}else{
+		image_index = 1;
+	}
+	if (near && keyboard_check_pressed(vk_up)) {
+	        open = false;
+	    }
+	
+	
+	
+}else{
+	if (open) {
+	    image_index = 0;
+	} else {
+	    image_index = 1;
     
-    if (near && keyboard_check_pressed(vk_up)) {
-        open = true;
-    }
+	    if (near && keyboard_check_pressed(vk_up)) {
+	        open = true;
+	    }
+	}
 }

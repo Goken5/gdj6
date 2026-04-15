@@ -37,9 +37,9 @@ if(!carrying){
 		}
 	}
 
-	if (place_meeting(x + hspd, y, obj_tutorial_floor)) {
+	if (place_meeting(x + hspd, y, obj_floor)) {
 	
-		while (!place_meeting(x + sign(hspd), y, obj_tutorial_floor)) {
+		while (!place_meeting(x + sign(hspd), y, obj_floor)) {
 			x += sign(hspd);
 		}
 		hspd = 0;
@@ -48,7 +48,7 @@ if(!carrying){
 	x += hspd;
 
 // GRAVIDADE E PULO
-	if (!place_meeting(x, y + 1, obj_tutorial_floor)) {
+	if (!place_meeting(x, y + 1, obj_floor)) {
 		vspd += vgravity;
 		vfloor = false;
 	} else {
@@ -58,7 +58,7 @@ if(!carrying){
 
 //Tinha pulo aqui, caso precise, dá ctrl z
 
-	if (!place_meeting(x, y + vspd, obj_tutorial_floor)) {
+	if (!place_meeting(x, y + vspd, obj_floor)) {
 		y += vspd;
     
 		if (vspd > 0 && !vfloor) {
@@ -70,7 +70,7 @@ if(!carrying){
 			image_speed = 1;
 		}
 	} else {
-		while (!place_meeting(x, y + sign(vspd), obj_tutorial_floor)) {
+		while (!place_meeting(x, y + sign(vspd), obj_floor)) {
 			y += sign(vspd);
 		}
 		vspd = 0;
@@ -110,9 +110,9 @@ else if(carrying){
 		sprite_index = spr_player_carry;
 	}
 	
-	if (place_meeting(x + hspd, y, obj_tutorial_floor)) {
+	if (place_meeting(x + hspd, y, obj_floor)) {
 	
-		while (!place_meeting(x + sign(hspd), y, obj_tutorial_floor)) {
+		while (!place_meeting(x + sign(hspd), y, obj_floor)) {
 			x += sign(hspd);
 		}
 		hspd = 0;

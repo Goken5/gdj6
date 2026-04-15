@@ -10,8 +10,8 @@
   "name":"obj_windows",
   "overriddenProperties":[],
   "parent":{
-    "name":"Reception",
-    "path":"folders/Objects/Reception.yy",
+    "name":"Tutorial",
+    "path":"folders/Objects/Tutorial.yy",
   },
   "parentObjectId":null,
   "persistent":false,
