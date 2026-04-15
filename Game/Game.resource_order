@@ -2,11 +2,11 @@
   "FolderOrderSettings":[
     {"name":"Fonts","order":3,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
-    {"name":"Work2","order":7,"path":"folders/Objects/Work2.yy",},
     {"name":"Home","order":3,"path":"folders/Objects/Home.yy",},
     {"name":"Reception","order":4,"path":"folders/Objects/Reception.yy",},
     {"name":"Tutorial","order":2,"path":"folders/Objects/Tutorial.yy",},
     {"name":"Work","order":5,"path":"folders/Objects/Work.yy",},
+    {"name":"Work2","order":7,"path":"folders/Objects/Work2.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Home","order":6,"path":"folders/Sprites/Home.yy",},
     {"name":"Party","order":12,"path":"folders/Sprites/Party.yy",},
