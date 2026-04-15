@@ -1,4 +1,4 @@
-target = obj_player;
+target = noone;
 xTo = x;
 yTo = y;
 

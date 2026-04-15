@@ -1,5 +1,6 @@
 draw_self();
 
+if (!open) {
     var offset = sin(current_time / 200) * 5;
     
     draw_sprite_ext(
@@ -13,3 +14,4 @@ draw_self();
         c_white,
         1     // alpha
     );
+}

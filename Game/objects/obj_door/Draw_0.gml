@@ -1,7 +1,6 @@
 draw_self();
 
-    var offset = sin(current_time / 200) * 5;
-    
+    var offset = sin(current_time / 200) * 5;   
     draw_sprite_ext(
         spr_arrows,
         0,

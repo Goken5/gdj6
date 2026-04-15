@@ -1,6 +1,8 @@
-if (target != noone) {
+if (instance_exists(target)) {
     xTo = target.x;
     yTo = target.y;
+} else {
+    target = instance_find(obj_player, 0);
 }
 
 // Suaviza o movimento da câmera
