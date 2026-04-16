@@ -1,7 +1,7 @@
 if (finished) exit;
-
+var gp = 0;
 // skip manual (ao apertar a tecla, o target vira 0 pra sumir)
-if (atual_index == 0 && (keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_right)))
+if (atual_index == 0 && (keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_right)) || (gamepad_button_check(gp, gp_padr) || gamepad_button_check(gp, gp_padl)))
     alpha_target = 0;
 
 if (atual_index == 1 && keyboard_check_pressed(vk_shift))

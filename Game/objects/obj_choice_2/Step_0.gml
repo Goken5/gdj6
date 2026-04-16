@@ -9,6 +9,7 @@ if (left_pressed) {
         global.dialog_active = false;
         obj_thegoat.talked = true;
         instance_destroy();
+		room_goto(BadEnd_2)
     } else {
         choice = 0;
     }

@@ -23,6 +23,7 @@ if (right_pressed) {
         global.dialog_active = false;
         obj_dog.talked = true;
         instance_destroy();
+		room_goto(BadEnd_1)
     } else {
         choice = 1;
     }
