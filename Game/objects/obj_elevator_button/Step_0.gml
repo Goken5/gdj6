@@ -1,6 +1,6 @@
 var near = place_meeting(x, y, obj_player);
 
-if (near && keyboard_check_pressed(vk_up)) {
+if (near && keyboard_check_pressed(vk_up) || near && global.gp_up) {
 	if(room = Room2){
 		room_goto(Room3);
 	}

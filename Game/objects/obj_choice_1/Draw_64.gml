@@ -5,6 +5,9 @@ var cx = gw / 2;
 var t = current_time * 0.005;
 var pulse = 0.5 + 0.5 * sin(t);
 
+// 🎮 detectar controle
+var has_gamepad = gamepad_is_connected(0);
+
 // fundo
 draw_set_alpha(0.7);
 draw_set_color(make_color_rgb(20,20,20));
@@ -53,13 +56,21 @@ var scale_r = (choice == 1) ? 1 + pulse * 0.05 : 1;
 draw_text_transformed(cx / 2, gh / 2, "Ficar até mais tarde", scale_l, scale_l, 0);
 draw_text_transformed(cx + cx / 2, gh / 2, "Ir para o aniversário de um amigo", scale_r, scale_r, 0);
 
-// setas com pulso
+// setas / botões
 var arrow_scale = 1 + pulse * 0.2;
 
 if (choice == 0) {
-    draw_sprite_ext(spr_arrows, 0, cx / 2, gh * 0.75, arrow_scale, arrow_scale, 90, c_white, 1);
+    if (has_gamepad) {
+        draw_sprite_ext(spr_buttons, 2, cx / 2, gh * 0.75, arrow_scale, arrow_scale, 0, c_white, 1); // X
+    } else {
+        draw_sprite_ext(spr_arrows, 0, cx / 2, gh * 0.75, arrow_scale, arrow_scale, 90, c_white, 1);
+    }
 }
 
 if (choice == 1) {
-    draw_sprite_ext(spr_arrows, 0, cx + cx / 2, gh * 0.75, arrow_scale, arrow_scale, 270, c_white, 1);
+    if (has_gamepad) {
+        draw_sprite_ext(spr_buttons, 1, cx + cx / 2, gh * 0.75, arrow_scale, arrow_scale, 0, c_white, 1); // B
+    } else {
+        draw_sprite_ext(spr_arrows, 0, cx + cx / 2, gh * 0.75, arrow_scale, arrow_scale, 270, c_white, 1);
+    }
 }

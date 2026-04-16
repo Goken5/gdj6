@@ -5,7 +5,7 @@ if(room = Room4_1){
 	}else{
 		image_index = 1;
 	}
-	if (near && keyboard_check_pressed(vk_up)) {
+	if (near && keyboard_check_pressed(vk_up) || near && global.gp_up) {
 	        open = false;
 	    }
 	
@@ -17,7 +17,7 @@ if(room = Room4_1){
 	} else {
 	    image_index = 1;
     
-	    if (near && keyboard_check_pressed(vk_up)) {
+	    if (near && keyboard_check_pressed(vk_up) || near && global.gp_up) {
 	        open = true;
 	    }
 	}

@@ -4,7 +4,7 @@ if (!exist) {
     image_index = 1;
 } else {
     image_index = 0;  
-    if (near && keyboard_check_pressed(vk_up)) {
+    if (near && keyboard_check_pressed(vk_up) || near && global.gp_up) {
         exist = false;
 		obj_player.carrying = true;
     }

@@ -5,7 +5,7 @@ if (full) {
 } else {
     image_index = 1;
     
-    if (near && keyboard_check_pressed(vk_up)) {
+    if (near && keyboard_check_pressed(vk_up) || near && global.gp_up) {
         full = true;
     }
 }

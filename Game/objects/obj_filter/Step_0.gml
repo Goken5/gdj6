@@ -4,7 +4,7 @@ if (obj_player.filter_full){
 } else {
     image_index = 0;
 	if(obj_player.carrying == true){
-		if (near && keyboard_check_pressed(vk_up)) {
+		if (near && keyboard_check_pressed(vk_up) || near && global.gp_up) {
 			obj_player.filter_full = true;
 			obj_player.carrying = false;
 		}
