@@ -7,7 +7,7 @@ if(obj_player.filter_full == true && talked == false){
         spr_arrows,
         0,
         x,
-        y - 100 + offset,
+        y - 10 + offset,
         0.7,  // scale X
         0.7,  // scale Y
         0,    // rotação

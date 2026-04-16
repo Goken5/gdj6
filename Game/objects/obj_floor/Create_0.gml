@@ -6,3 +6,6 @@ if(room == Room1){
 if(room == Room2){
 	image_index = 1;
 }
+if(room == Room4_2){
+	image_index = 1;
+}

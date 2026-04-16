@@ -9,8 +9,8 @@
   "name":"obj_floor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tutorial",
-    "path":"folders/Objects/Tutorial.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
