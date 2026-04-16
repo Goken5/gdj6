@@ -2,8 +2,8 @@
   "FolderOrderSettings":[
     {"name":"Fonts","order":3,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
-    {"name":"General","order":6,"path":"folders/Objects/General.yy",},
     {"name":"Ends","order":7,"path":"folders/Objects/Ends.yy",},
+    {"name":"General","order":6,"path":"folders/Objects/General.yy",},
     {"name":"Home","order":1,"path":"folders/Objects/Home.yy",},
     {"name":"Party","order":5,"path":"folders/Objects/Party.yy",},
     {"name":"Reception","order":2,"path":"folders/Objects/Reception.yy",},
@@ -73,6 +73,10 @@
     {"name":"spr_pc_2","order":4,"path":"sprites/spr_pc_2/spr_pc_2.yy",},
     {"name":"spr_pc","order":7,"path":"sprites/spr_pc/spr_pc.yy",},
     {"name":"spr_people","order":2,"path":"sprites/spr_people/spr_people.yy",},
+    {"name":"spr_phrase_1","order":2,"path":"sprites/spr_phrase_1/spr_phrase_1.yy",},
+    {"name":"spr_phrase_2","order":3,"path":"sprites/spr_phrase_2/spr_phrase_2.yy",},
+    {"name":"spr_phrase_3","order":4,"path":"sprites/spr_phrase_3/spr_phrase_3.yy",},
+    {"name":"spr_phrase_4","order":5,"path":"sprites/spr_phrase_4/spr_phrase_4.yy",},
     {"name":"spr_plant","order":8,"path":"sprites/spr_plant/spr_plant.yy",},
     {"name":"spr_player_carry_walk","order":4,"path":"sprites/spr_player_carry_walk/spr_player_carry_walk.yy",},
     {"name":"spr_player_carry","order":3,"path":"sprites/spr_player_carry/spr_player_carry.yy",},
@@ -88,6 +92,5 @@
     {"name":"spr_workspace_1","order":5,"path":"sprites/spr_workspace_1/spr_workspace_1.yy",},
     {"name":"spr_workspace_2_2","order":1,"path":"sprites/spr_workspace_2_2/spr_workspace_2_2.yy",},
     {"name":"spr_workspace_2","order":3,"path":"sprites/spr_workspace_2/spr_workspace_2.yy",},
-    {"name":"Sprite50","order":2,"path":"sprites/Sprite50/Sprite50.yy",},
   ],
 }
