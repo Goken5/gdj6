@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_choice_1",
+  "%Name":"obj_popup",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_choice_1",
+  "name":"obj_popup",
   "overriddenProperties":[],
   "parent":{
     "name":"Work",
     "path":"folders/Objects/Work.yy",
   },
-  "parentObjectId":{
-    "name":"obj_choice",
-    "path":"objects/obj_choice/obj_choice.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

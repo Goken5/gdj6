@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":3,"path":"folders/Fonts.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Ends","order":7,"path":"folders/Objects/Ends.yy",},
     {"name":"General","order":6,"path":"folders/Objects/General.yy",},
@@ -26,6 +27,7 @@
     {"name":"obj_choice_1","order":3,"path":"objects/obj_choice_1/obj_choice_1.yy",},
     {"name":"obj_choice_2","order":3,"path":"objects/obj_choice_2/obj_choice_2.yy",},
     {"name":"obj_choice_3","order":3,"path":"objects/obj_choice_3/obj_choice_3.yy",},
+    {"name":"obj_choice","order":4,"path":"objects/obj_choice/obj_choice.yy",},
     {"name":"obj_dog","order":1,"path":"objects/obj_dog/obj_dog.yy",},
     {"name":"obj_door","order":2,"path":"objects/obj_door/obj_door.yy",},
     {"name":"obj_end_title","order":5,"path":"objects/obj_end_title/obj_end_title.yy",},
@@ -34,6 +36,7 @@
     {"name":"obj_papers","order":1,"path":"objects/obj_papers/obj_papers.yy",},
     {"name":"obj_party_food_2","order":1,"path":"objects/obj_party_food_2/obj_party_food_2.yy",},
     {"name":"obj_player","order":2,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_popup","order":5,"path":"objects/obj_popup/obj_popup.yy",},
     {"name":"obj_restart","order":3,"path":"objects/obj_restart/obj_restart.yy",},
     {"name":"obj_start","order":4,"path":"objects/obj_start/obj_start.yy",},
     {"name":"obj_thegoat","order":2,"path":"objects/obj_thegoat/obj_thegoat.yy",},

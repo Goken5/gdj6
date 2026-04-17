@@ -14,7 +14,7 @@ draw_set_color(make_color_rgb(20,20,20));
 draw_rectangle(0, 0, gw, gh, false);
 draw_set_alpha(1);
 
-// lados base (cinza)
+// lados base
 draw_set_alpha(0.25);
 draw_set_color(make_color_rgb(80,80,80));
 draw_rectangle(0, 0, cx, gh, false);
@@ -23,33 +23,33 @@ draw_set_color(make_color_rgb(60,60,60));
 draw_rectangle(cx, 0, gw, gh, false);
 draw_set_alpha(1);
 
-// highlight suave
+// highlight
 draw_set_alpha(0.2 + pulse * 0.2);
 
 if (choice == 0) {
     draw_set_color(make_color_rgb(120,120,140));
     draw_rectangle(0, 0, cx, gh, false);
-} else {
+} else if (choice == 1) {
     draw_set_color(make_color_rgb(120,140,160));
     draw_rectangle(cx, 0, gw, gh, false);
 }
 
 draw_set_alpha(1);
 
-// linha central
+// linha
 draw_set_alpha(0.3);
 draw_set_color(c_white);
 draw_line(cx, 0, cx, gh);
 draw_set_alpha(1);
 
-// texto
+// texto principal
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
 draw_text(cx, gh * 0.2, "Seu chefe quer que você faça hora extra");
 
-// zoom leve textos
+// zoom textos
 var scale_l = (choice == 0) ? 1 + pulse * 0.05 : 1;
 var scale_r = (choice == 1) ? 1 + pulse * 0.05 : 1;
 
@@ -57,43 +57,34 @@ draw_text_transformed(cx / 2, gh / 2, "Ficar até mais tarde", scale_l, scale_l,
 draw_text_transformed(cx + cx / 2, gh / 2, "Ir para o aniversário de um amigo", scale_r, scale_r, 0);
 
 
-// =================== SETAS SEMPRE VISÍVEIS ===================
+// ================= SETAS =================
 
-// alpha quando não selecionada
 var alpha_idle = 0.25;
-
-// escala idle
 var scale_idle = 1;
-
-// SELECIONADA → pulse suave
 var scale_active = 1 + pulse * 0.15;
 
-// LEFT
 var a_l = (choice == 0) ? 1 : alpha_idle;
 var s_l = (choice == 0) ? scale_active : scale_idle;
 
-// RIGHT
 var a_r = (choice == 1) ? 1 : alpha_idle;
 var s_r = (choice == 1) ? scale_active : scale_idle;
 
 
-// ---- desenhar seta esquerda ----
+// esquerda
 draw_set_alpha(a_l);
-
 if (has_gamepad) {
-    draw_sprite_ext(spr_buttons, 2, cx / 2, gh * 0.75, s_l, s_l, 0, c_white, 1); // X
+    draw_sprite_ext(spr_buttons, 2, cx / 2, gh * 0.75, s_l, s_l, 0, c_white, 1);
 } else {
     draw_sprite_ext(spr_arrows, 0, cx / 2, gh * 0.75, s_l, s_l, 90, c_white, 1);
 }
 
-
-// ---- desenhar seta direita ----
+// direita
 draw_set_alpha(a_r);
-
 if (has_gamepad) {
-    draw_sprite_ext(spr_buttons, 1, cx + cx / 2, gh * 0.75, s_r, s_r, 0, c_white, 1); // B
+    draw_sprite_ext(spr_buttons, 1, cx + cx / 2, gh * 0.75, s_r, s_r, 0, c_white, 1);
 } else {
     draw_sprite_ext(spr_arrows, 0, cx + cx / 2, gh * 0.75, s_r, s_r, 270, c_white, 1);
 }
 
 draw_set_alpha(1);
+
